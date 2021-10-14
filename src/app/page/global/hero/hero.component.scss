@@ -1,0 +1,38 @@
+$bodyBckcolor: #141414;
+
+*{
+    margin: 0;
+}
+.header{
+    width: 100%;
+    background-color: $bodyBckcolor;
+    .header__title{
+        padding-top: 20px;
+        padding-bottom: 40px;
+        margin-left: 20px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .header__ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .header__ul__li{
+        width: 100%;
+        list-style-type: none;
+        .headerImgs{
+            width: 100%;
+            max-width: 450px;
+        }
+        span{
+            font-size: 40px;
+            font-weight: 700;
+            color: #fff;
+            opacity: 50%;
+        }
+    }
+}
+

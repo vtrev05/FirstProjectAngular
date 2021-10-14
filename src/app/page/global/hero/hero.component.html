@@ -1,0 +1,9 @@
+<div class="header">
+    <h1 class="header__title">{{hero.title}}</h1>
+    <ul class="header__ul">
+        <li class="header__ul__li" *ngFor="let element of hero.img; let index = index">
+            <span>{{hero.img[index].alt}}</span>
+            <img class="headerImgs" src="{{element.src}}" alt="{{element.alt}}">
+        </li>
+    </ul>
+</div>

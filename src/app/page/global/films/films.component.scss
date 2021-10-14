@@ -1,0 +1,32 @@
+$bodyBckcolor: #141414;
+
+*{
+    margin: 0;
+}
+.comedyFilms{
+    width: 100%;
+    background-color: $bodyBckcolor;
+    .comedyFilms__title{
+        padding-top: 20px;
+        padding-bottom: 40px;
+        margin-left: 20px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .comedyFilms__ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .comedyFilms__ul__li{
+        width: 100%;
+        list-style-type: none;
+        .comedyFilmsImgs{
+            width: 100%;
+            max-width: 450px;
+            padding-bottom: 20px;
+        }
+    }
+}

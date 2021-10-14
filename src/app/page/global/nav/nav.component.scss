@@ -1,0 +1,27 @@
+//COLORS
+
+$bodyBckcolor: #141414;
+
+*{
+    margin: 0 auto;
+}
+
+.nav__bar{
+    background-color: $bodyBckcolor;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+   .warner__img{
+    width: 90px;
+    padding: 15px;
+    margin: 0;
+    }
+    .nav__buttons{
+        margin: auto;
+        font-size: 12px;
+        color:#fff;
+        word-spacing: 1.75rem;
+    }
+}
+
