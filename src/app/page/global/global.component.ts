@@ -27,11 +27,11 @@ public netflixApp: NetflixModel;
             alt: '1'
           },
           {
-            src: 'https://cronicaglobal.elespanol.com/uploads/s1/93/81/15/9/a-3-metros-sobre-el-cielo-netflix.jpeg',
+            src: 'https://f.rpp-noticias.io/2020/04/28/934066new-project-35jpg.jpg',
             alt: '2'
           },
           {
-            src: 'https://img.youtube.com/vi/tBcv8yxfb_E/hqdefault.jpg',
+            src: 'https://theenvoyweb.com/wp-content/uploads/2020/04/Dangerous-Lies-1.png',
             alt: '3'
           },
           {

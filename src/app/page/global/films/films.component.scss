@@ -3,10 +3,10 @@ $bodyBckcolor: #141414;
 *{
     margin: 0;
 }
-.comedyFilms{
+.films{
     width: 100%;
     background-color: $bodyBckcolor;
-    .comedyFilms__title{
+    .films__title{
         padding-top: 20px;
         padding-bottom: 40px;
         margin-left: 20px;
@@ -14,19 +14,29 @@ $bodyBckcolor: #141414;
         font-size: 20px;
         font-weight: 400;
     }
-    .comedyFilms__ul{
+    .films__ul{
         width: 100%;
         display: flex;
         flex-direction: column;
         padding: 0;
     }
-    .comedyFilms__ul__li{
+    .films__ul__li{
         width: 100%;
         list-style-type: none;
-        .comedyFilmsImgs{
+        margin: 3px;
+        .filmsImgs{
+            cursor: pointer;
+            border-radius: 6px;
             width: 100%;
             max-width: 450px;
             padding-bottom: 20px;
+        }
+    }
+}
+@media (min-width: 900px) {
+    .films{
+        .films__ul{
+            flex-direction: row;
         }
     }
 }
