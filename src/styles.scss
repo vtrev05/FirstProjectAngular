@@ -1,7 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 $bodyBckcolor: #141414;
 
+@import url('http://fonts.cdnfonts.com/css/netflix-sans%27');
+
 body{
     margin: 0 auto;
     background-color: $bodyBckcolor;
+    font-family: 'Netflix Sans', sans-serif;
 }

@@ -20,12 +20,19 @@ $bodyBckcolor: #141414;
     .nav__buttons{
         cursor: pointer;
         margin: auto;
-        margin-right: 100px;
         font-size: 12px;
         color:#fff;
         word-spacing: 1.75rem;
         :hover{
             padding: 20px;
+        }
+    }
+}
+
+@media (min-width: 900px) {
+    .nav__bar{
+        .nav__buttons{
+            margin-right: 100px;
         }
     }
 }
