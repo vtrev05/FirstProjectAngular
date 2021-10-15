@@ -24,23 +24,23 @@ public netflixApp: NetflixModel;
         img: [
           {
             src: 'https://assets.whatsnewonnetflix.com/external_assets/sggkh+%5B%5Blxx*9*8017*35_8_muochl_mvg%5Bwmn%5Bzkr%5Be3%5BC805vQhtDYWV7zJyzMwnXCTFK*B%5BZZZZYJ3C9KthDk*NKBKxhGeHvxrn9aKIc5u0ZVJzghMNcwY1*bHiz5lw5MsaWCtx08OnCwVz2SH8kM9gOsRVEC%5DTgRZ7hhqwuvPwo%5Dwn2quXJ5i*ZO5sCApEKj3q*TdHVdCVxaTahYEXbMrVIl0i75s*42sEx7qfZJ.jpg?locale=es',
-            alt: '1'
+            alt: 'El último baile'
           },
           {
             src: 'https://f.rpp-noticias.io/2020/04/28/934066new-project-35jpg.jpg',
-            alt: '2'
+            alt: 'A tres metros sobre el cielo'
           },
           {
             src: 'https://theenvoyweb.com/wp-content/uploads/2020/04/Dangerous-Lies-1.png',
-            alt: '3'
+            alt: 'Dangerous Lies'
           },
           {
             src: 'https://images.clarin.com/2020/08/17/yo-nunca-la-serie-de___NLOCaGWej_720x0__1.jpg',
-            alt: '4'
+            alt: 'Yo nunca'
           },
           {
             src: 'https://i.ytimg.com/vi/1-rqX55vKe8/maxresdefault.jpg',
-            alt: '5'
+            alt: 'The Last Kingdom'
           },
         ]
       },
